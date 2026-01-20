@@ -1,0 +1,12 @@
+{
+  "buildCommand": "pip install -r scripts/requirements.txt",
+  "outputDirectory": "Processed_data",
+  "env": {
+    "PYTHONVERSION": "3.9"
+  },
+  "functions": {
+    "scripts/anamoly_engine.py": {
+      "runtime": "python3.9"
+    }
+  }
+}
